@@ -19,7 +19,7 @@ public class Anglerhandel {
 
 	
 	public static void main(String[] args) throws LoginException {		
-		String token = System.getEnv("TOKEN");
+		String token = System.getenv("TOKEN");
 								
 		builder = JDABuilder.createDefault(token);
 		
