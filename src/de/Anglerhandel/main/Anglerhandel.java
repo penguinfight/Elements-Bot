@@ -16,10 +16,10 @@ import net.dv8tion.jda.api.utils.Compression;
 public class Anglerhandel {
 
 	public static JDABuilder builder;
-
+	public static String Token = "ODA0MzUyNDM5MDE2MjI2ODE3.YBLFlQ.ApVIiEeD8Xm1brJ8EwnaMcAAPJ8";
 	
 	public static void main(String[] args) throws LoginException {		
-		String token = System.getenv("TOKEN");
+		String token = Token;
 								
 		builder = JDABuilder.createDefault(token);
 		
