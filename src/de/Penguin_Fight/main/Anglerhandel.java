@@ -27,7 +27,9 @@ public class Anglerhandel {
 
 	
 	public static void main(String[] args) throws LoginException {		
-		String token = System.getEnv("TOKEN");
+		String token = System.getEnv("TOKEN
+					   
+		System.out.println("bot läuft");
 								
 		builder = JDABuilder.createDefault(token);
 		
